@@ -46,10 +46,13 @@ The system constrains the "probabilistic drift" of LLMs by defining a **Minimal 
 
 ## 📂 Repository Structure / 仓库结构
 
-* **[/Papers](./Papers)**: 
-    * **[Protocol-as-System (PDF)](./Papers/Protocol_as_System.pdf)** - 系统架构范式与 PC-ITS 形式化证明。
-    * **[Operational-Closure (PDF)](./Papers/Operational_Closure.pdf)** - 运行闭合理论与生成拓扑收缩数学基础。
-* **`/Protocols`**: Exemplars of Declarative Protocol Objects (DOC). (声明式协议对象示例)
+*   **[/Papers](./Papers)**:
+    *   **[Protocol-as-System (PDF)](./Papers/Protocol_as_System.pdf)** - System Architecture Paradigm and PC-ITS Formal Proof / 系统架构范式与 PC-ITS 形式化证明。
+    *   **[Operational-Closure (PDF)](./Papers/Operational_Closure.pdf)** - Operational Closure Theory and the Mathematical Foundation of Generative Topology Shrinkage / 运行闭合理论与生成拓扑收缩数学基础。
+
+*   **[/Examples/SEA_OS_v2026](./Examples/SEA_OS_v2026)**:
+    *   **[SEA_OS_v2026 Hands-on Example]** - **Generative Topology Shrinkage (OCG) Validation Tool** / **生成拓扑收缩 (OCG) 验证工具**。
+    *   This is a Logical Closure Inducer. By feeding this specification, the LLM will shrink from a "chatbot" mode into a rigorous generative domain that exhibits the behavioral characteristics of an operating system, which is used to observe the phenomenon of **Protocol Lock** / 这是一个逻辑闭包诱导物（Logical Closure Inducer）。通过投喂该规范，LLM 将从“聊天机器人”模式收缩进一个严谨的、具备操作系统行为特征的生成域中，用于观察**协议锁死（Protocol Lock）**现象。
 
 ---
 
